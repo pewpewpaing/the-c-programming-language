@@ -9,7 +9,7 @@
 - Your program begins executing at the beginning of main. This means that every program must have a `main` somewhere.
 - When you run a C program, the OS(not sure if it's OS that calls `main` but you get the point) first searches the main function and starts executing from there.
 
-`#include <stdio.h>
+`#include <stdio.h>`
 - It tells the compiler to include information aboout the standard input/output library.
 
 `printf`
@@ -33,3 +33,10 @@
 | `%6.2f`  | print as floating point, at least 6 wide and 2 after decimal point |
 
 - `printf` also recognises %o for octal, %x for hexadecimal, %c for character, %s for character string and %% for itself.
+
+## 1.3 The for statement
+- within the parentheses, there are three parts, separated by semicolons.
+1.The first part, the initialisation is done once, before the loop proper is entered.
+2. The second part is the test or condition that controls the loop, the condition is evaluated; if it is true, the body of the loop is executed.
+3. Then the increment step is ececuted, and the condition is re-evaluated.
+- The `for` loop is usually appropriate for loops in which initialisation and increment are single statements and logically related, since it is more compact than while and it keeps the loop control the statements together in one place.
