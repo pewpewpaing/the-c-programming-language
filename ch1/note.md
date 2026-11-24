@@ -40,3 +40,13 @@
 2. The second part is the test or condition that controls the loop, the condition is evaluated; if it is true, the body of the loop is executed.
 3. Then the increment step is ececuted, and the condition is re-evaluated.
 - The `for` loop is usually appropriate for loops in which initialisation and increment are single statements and logically related, since it is more compact than while and it keeps the loop control the statements together in one place.
+
+# 1.4 Symbolic Constants
+
+- One way to deal with magic numbers is to give them meaningful names. A `#define` line defines a symbolic name or symbolic constant to be a particular string of characters
+`#define name replacement list`
+- Thereafter, any occurence of name (not in quotes and not part of another name) will be replaced by the corresponding replacement text.
+- Symbolic constant names are conventionally written in upper case so they can be readily distinguished from lower case variable names.
+Notice that there is no semicolon at the end of a #define line.
+
+
